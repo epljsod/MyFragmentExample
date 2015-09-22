@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="3"
+    android:baselineAligned="false">
+
+    <fragment android:name="com.example.johan.myfragmentexample.VideoFragment"
+        android:id="@+id/video_fragment"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent" />
+//        android:layout_height="217dp" />
+
+    <fragment android:name="com.example.johan.myfragmentexample.WebFragment"
+        android:id="@+id/web_fragment"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent" />
+
+    <fragment android:name="com.example.johan.myfragmentexample.ControlFragment"
+        android:id="@+id/control_fragment"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent" />
+
+  <!--  <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/fragmentText"
+    android:name="com.example.johan.myfragmentexample.VideoFragmentools:layout="@layout/fragment_control" android:layout_width="match_parent"
+    android:layout_height="206dp" />
+
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools" android:id="@+id/fragmentVideo"
+android:name="com.example.johan.myfragmentexample.VideoFragment:layout="@layout/fragment_video" android:layout_width="match_parent"
+android:layout_height="wrap_content"
+    android:layout_gravity="bottom" />-->
+
+</LinearLayout>
